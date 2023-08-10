@@ -1,0 +1,71 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    background-image: linear-gradient(to right, #560051, #2a0458);
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.job-container{
+    display: flex;
+    justify-content: center;
+    border: 50rem;
+    margin: 5rem;
+    color: white;
+    border-radius: 3rem;
+    flex-direction: column;
+    background-color: rgba(31, 13, 31, 0.75);
+    padding: 2rem;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.job-container input{
+    background-color: transparent;
+    height: 3rem;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.job-container input:hover{
+    background-color: rgba(57, 11, 57, 0.75);
+    height: 3rem;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+.job-container h2{
+    color: rgb(188, 163, 163);
+}
+
+.job-container button{
+    height: 3rem;
+    background-color: green;
+    border: none;
+    border-radius: 1rem;
+    color: rgb(208, 162, 162);
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+    margin: 1rem;
+    /* border-bottom: 2px solid ; */
+}
+.job-container button:hover{
+    height: 3rem;
+    background-color: rgb(50, 165, 50);
+    color: rgb(249, 249, 249);
+    border: none;
+    border-radius: 1rem;
+    border-bottom: 3px solid white;
+    /* border-bottom: 2px solid ; */
+}
+
+.job-container button:focus{
+    height: 2.9rem;
+}

@@ -1,0 +1,50 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    background-image: linear-gradient(to right, #560051, #2a0458);
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: white;
+    margin: 2rem;
+    
+}
+
+
+.job-time{
+    margin: 1rem;
+}
+
+.delete-btn{
+    height: 3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #560051;
+    border-radius: 1rem;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: #2a0458;
+    border: 1px solid white;
+}
+.job-card{
+    background-color: rgba(31, 13, 31, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem;
+    padding: 5rem;
+    border-radius: 50px;
+    color: white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}

@@ -1,0 +1,76 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    background-image: linear-gradient(to right, #560051, #2a0458);
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    border: 50rem;
+    border-radius: 100px;
+    margin: 5rem;
+}
+
+
+.login-card{
+    grid-column: 1/-1;
+    background-color: rgba(31, 13, 31, 0.75);
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 50px;
+    color: white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+.login-card img{
+    margin: .75rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    /* padding: 10px; */
+    background-color: transparent;
+}
+.login-card input{
+    margin: .75rem;
+    background-color:  rgba(31, 13, 31, 0.75);
+    color: white;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    /* width: 20rem; */
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.login-card input:hover{
+    background-color:  rgba(74, 53, 74, 0.75);
+    color: white;
+    border-bottom: 1px solid rgb(189, 207, 54);
+}
+
+.login-card button{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(91, 64, 91, 0.75);
+    color: white;
+    border-radius: 10px;
+}
+.login-card button:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(146, 70, 223);
+    border-radius: 10px;
+}
+

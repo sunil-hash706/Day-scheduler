@@ -1,0 +1,64 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin : 0px;
+    /* background-image: linear-gradient(to right, #560051, #2a0458); */
+    /* background-image: url("../assets/BG1.jpg"); */
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.dashbord{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(2,40vw);
+    grid-template-rows: repeat(2,50vh);
+    justify-content: center;
+    row-gap: 1px;
+    column-gap: 1px;
+    margin: 1rem;
+    color: white;
+}
+.weather-info{
+    margin-top: 1rem;
+}
+input{
+    height: 3rem;
+}
+.btn{
+    margin: 5px;
+    height: 3rem;
+    cursor: pointer;
+}
+.work-card{
+    background-color: rgba(23, 3, 3, 0.6);
+    grid-row-start: 1;
+    padding: 1rem;
+    grid-row-end: 3;
+    margin: 1rem;
+    border-radius: 10px;
+    border-bottom: 3px solid white;
+}
+.time-card{
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 3px solid white;
+    background-color: rgba(23, 3, 3, 0.6);
+}
+.weather-card{
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 3px solid white;
+    background-color: rgba(23, 3, 3, 0.6);
+}
+
+
+
+

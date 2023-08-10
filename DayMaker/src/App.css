@@ -1,0 +1,7 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body{
+  margin : 0px;
+  background-image: linear-gradient(to right, #ac54d5, #dd4866);
+}

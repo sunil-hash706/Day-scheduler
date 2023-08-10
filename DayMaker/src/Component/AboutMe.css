@@ -1,0 +1,69 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    background-image: linear-gradient(to right, #560051, #2a0458);
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+
+.about-container{
+    grid-column: 1/-1;
+    background-color: rgba(31, 13, 31, 0.75);
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+    align-items: center;
+    margin: 3rem;
+    justify-content: space-around;
+    padding: 5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 50px;
+    color: white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.about-container img{
+    margin: .75rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 150px;
+    /* padding: 10px; */
+    background-color: transparent;
+}
+
+.about-container img:hover{
+    /* margin: 2rem; */
+   
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-me a{
+    background-color: rgba(31, 13, 31, 0.55);
+    border-radius: 2rem;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    
+    margin: 5px;
+}
+.contact-me a h3{
+    color: white;
+    text-decoration: node;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.contact-me a h3:hover{
+    font-size: 1.2rem;
+}
